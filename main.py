@@ -39,6 +39,11 @@ try:
         else:
             partial_result = rec.PartialResult()
             print(json.loads(partial_result)["partial"])
+          
+        """
+        Remove same phrases and send packets to ElevenLabs
+        
+        """
 except KeyboardInterrupt:
     print("Stopped by user")
 finally:
