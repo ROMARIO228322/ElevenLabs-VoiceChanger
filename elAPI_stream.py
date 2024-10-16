@@ -14,7 +14,7 @@ headers = {
   "xi-api-key": ""
 }
 
-data = {
+data = { #here data required is in a text format.
   "text": "text",
   "model_id": "eleven_multilingual_v2",
   "voice_settings": {
